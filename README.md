@@ -131,5 +131,10 @@ FindX/
 ```
 
 ---
+## 👥 Meet the Team
+
+*   **Neeraj J V**
+*   **Padmesh J**
+*   **Raj Mohan R**
 
 *Built for robust and efficient text-based intelligence gathering.*
