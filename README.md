@@ -15,10 +15,10 @@
 
 <br>
 
-## 📝 Problem Statement
+## Problem Statement
 Reviewing hours of CCTV footage to locate a specific individual is a labor-intensive and error-prone process. Security personnel often need to find a suspect or missing person based on a description of their clothing or accessories (e.g., *"person wearing a red hoodie and black backpack"*). Manually scanning video files for these visual cues is inefficient and can lead to missed critical evidence.
 
-## 💡 Proposed Idea & Solution
+## Proposed Idea & Solution
 **FindX** is an AI-powered desktop application designed to streamline the process of person identification in CCTV footage. It leverages state-of-the-art deep learning models to index video content, allowing users to search for people using natural language queries.
 
 The system automatically:
@@ -31,7 +31,7 @@ Users can simply type a description like *"man in blue shirt"* to see all matchi
 
 ---
 
-## 🛠️ Tech Stack & Architecture
+## Tech Stack & Architecture
 
 The project is built using a robust, modern Python stack:
 
@@ -50,29 +50,29 @@ The project is built using a robust, modern Python stack:
 
 ---
 
-## ✨ Key Features
+## Key Features
 
-### 1. 🗣️ Natural Language Search
+### 1. Natural Language Search
 Search for specific people using descriptive text queries. The CLIP model understands rich semantic attributes like color *(red shirt)*, object *(backpack)*, and type *(woman/man/child)*.
 
-### 2. 📂 Automated CCTV Indexing
+### 2. Automated CCTV Indexing
 Point the application to your CCTV storage folder, and it will automatically scan, detect, and index all person occurrences in the background at an optimized frame sample rate (e.g., 5 FPS).
 
-### 3. 🎬 Smart Video Playback
+### 3. Smart Video Playback
 Clicking on any search result instantly opens the built-in video player, jumping exactly to the timestamp where the person was detected, with the individual highlighted.
 
-### 4. 🗂️ Interactive Results Grid
+### 4. Interactive Results Grid
 View search results in a clean, scrollable grid of cropped images, ranked dynamically by relevance to your text query.
 
-### 5. 🪄 Integrated Image Restoration
+### 5. Integrated Image Restoration
 CCTV footage is often blurry or pixelated. FindX includes an integrated restoration tool powered by GFPGAN to upscale and clear up low-resolution face crops natively, aiding rapid identification.
 
-### 6. 📁 Single Video Upload
+### 6. Single Video Upload
 Apart from batch processing CCTV folders, you can upload and analyze single video files for quick investigations.
 
 ---
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
 1.  **Clone the Repository**
     ```bash
@@ -106,7 +106,7 @@ Apart from batch processing CCTV folders, you can upload and analyze single vide
 
 ---
 
-## 🎮 Usage Workflow
+## Usage Workflow
 1.  **Launch** the app by running `app.py`.
 2.  **Select Mode**: Choose **"CCTV"** to scan a directory or **"Upload"** for a single file from the sidebar.
 3.  **Indexing**: Click **"Scan"** to process videos. (The first run may take time depending on video length and GPU availability).
@@ -115,7 +115,7 @@ Apart from batch processing CCTV folders, you can upload and analyze single vide
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 ```text
 FindX/
 ├── app.py                  # Main entry point for the PyQt6 application
